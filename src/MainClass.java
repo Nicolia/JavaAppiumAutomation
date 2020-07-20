@@ -1,6 +1,10 @@
+import org.junit.Test;
+
 public class MainClass
 {
-    public void getLocalNumber()
+  @Test
+      public void getLocalNumber()
+
     {
         int number = 14;
         System.out.println(number);
