@@ -15,6 +15,12 @@ public class MainClassTest extends MainClass
     @Test
     public void  testGetClassString()
     {
-
+        if (this.class_string.contains("Hello")) {
+            System.out.println("The text is exist");
+        } else if (this.class_string.contains("hello")) {
+            System.out.println("The text is exist");
+        } else {
+            System.out.println("The text is wrong - there is no the Hello word");
+        }
     }
 }
