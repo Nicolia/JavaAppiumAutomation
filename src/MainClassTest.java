@@ -12,4 +12,9 @@ public class MainClassTest extends MainClass
             System.out.println("Value is 45 or less then 45");
         }
     }
+    @Test
+    public void  testGetClassString()
+    {
+
+    }
 }
