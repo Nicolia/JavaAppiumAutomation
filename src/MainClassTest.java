@@ -26,7 +26,7 @@ public class MainClassTest extends MainClass
     @Test
     public void testGetLocalNumber()
     {
-        int number = this.GetLocalNumber();\
+        int number = this.GetLocalNumber();
                 if (number == 14){
                     System.out.println("Number is 14");
                 }else {
