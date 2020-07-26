@@ -15,4 +15,8 @@ public class MainClass
     {
         System.out.println(this.class_string);
     }
+    public int GetLocalNumber()
+    {
+        return 14;
+    }
 }
