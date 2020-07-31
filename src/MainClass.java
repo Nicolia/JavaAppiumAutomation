@@ -10,7 +10,7 @@ public class MainClass
   {
       System.out.println(this.class_number);
   }
-    @Test
+  @Test
     public void getClassString()
     {
         System.out.println(this.class_string);

@@ -1,3 +1,4 @@
+import org.junit.Assert;
 import org.junit.Test;
 
 public class MainClassTest extends MainClass
@@ -26,13 +27,14 @@ public class MainClassTest extends MainClass
     @Test
     public void testGetLocalNumber()
     {
-        int number = this.GetLocalNumber();
+ /**       int number = this.GetLocalNumber();
                 if (number == 14){
                     System.out.println("Number is 14");
                 }else {
                     System.out.println("Number isn't 14");
                 }
-        
+ */
+        Assert.assertTrue("Number isn't 14",this.GetLocalNumber()==14);
     }
 
 }
