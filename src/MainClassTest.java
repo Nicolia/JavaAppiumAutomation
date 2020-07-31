@@ -7,11 +7,13 @@ public class MainClassTest extends MainClass
 
     public void  testGetClassNumber()
     {
-        if (this.class_number > 45) {
+ /**       if (this.class_number > 45) {
             System.out.println("Value more then 45");
         } else {
             System.out.println("Value is 45 or less then 45");
         }
+  */
+        Assert.assertTrue("Value is 45 or less then 45",this.class_number>45);
     }
     @Test
     public void  testGetClassString()
